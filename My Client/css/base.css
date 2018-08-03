@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: black;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    font-size: 0.95em;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*nav*/
+.name {
+    font-size: 5px;
+}
+.name a,
+.main-nav a {
+
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+.main-nav a {
+    font-size: 0.95em;
+    color: #3acec2;
+    text-transform: uppercase;
+}
+.main-nav a;hover {
+    color: #093a58;
+}
+
+/*layout contai*/
+
+.main-header {
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.banner,
+.main-footer {
+    text-align: center;
+}
+.banner {
+    color: #fff;
+    background: #0E34D0;
+    padding: 3.2em 0;
+}
+.col {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.main-footer {
+    background: #d9e4ea;
+    padding: 2em 0;
+    margin-top: 30px;
+}
+
+/*page element*/
+.logo {
+    width: 190px;
+}
+.headline {
+    margin-bottom: 0;
+}
+.feat-img {
+    border-radius: 5px;
+}
+/*Medoa Queries*/
+@media (min-width: 769px) {
+    .main-header,
+    .row {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tagline {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 1025px) {
+    .main-header,
+    .row {
+        width: 80%;
+        max-width: 1150px
+    }
+}
+/*Sticky footer*/
+@media (min-width:769) {
+    .main-header,
+    .row,
+    .footer-inner {
+        width: 80%;
+        max-width: 1150px;
+    }
+    .tagline {
+        font-size: 1.4em;
+    }
+}
+li{
+    display: inline;
+    padding: 0 0 0 20px;
+}
+h3{
+    text-align: center;
+    padding-top: -1000px;
+}
+image{
+    padding-left: 550px;
+}
+.logo {
+  vertical-align: middle;
+  padding-right: 10px;
+}
